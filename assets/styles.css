@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+
+html{
+    font-size: 115%;
+    overflow-x: hidden;
+    background: #EFF1D8 ;
+}
+
+section{
+    min-height: 80vh;
+    padding: 10rem 9% 2rem;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 2rem 6% ;
+    background-color: #666666;
+    z-index: 100;
+}
+
+h1{
+    font-family: "Aboreto",cursive;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+li,a{
+    text-decoration: none;
+    font-family: "Aboreto", cursive;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.nav-links{
+    list-style: none;
+}
+
+.nav-links li{
+    display: inline-block;
+}
+
+.nav-links li a{
+    color: azure;
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover{
+    color: #d3ffce;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    padding: 4rem;
+}
+.main-content{
+    max-width: 600px;
+}
+.main-content h1{
+    font-size: 45px;
+    font-weight: 500;
+}
+.main-content h3{
+    font-size: 20px;
+    font-weight: 300;
+    color: #74B063;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.heading{
+    font-size: 4rem;
+}
+
+.info-content{
+    text-align: center;
+
+}
+
+.info-content h3{
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+
+.info-content p{
+    font-size: 1.3rem;
+    margin: 2rem 0 3rem;
+
+}
+
+.bttn{
+    display: inline-block;
+    padding:1rem 2.8rem;
+    background: #69B486;
+    border-radius: 4rem;
+    box-shadow: 0 0 .6rem #5DA597 ;
+    font-size: 1rem;
+    color: #EEF1D4;
+    letter-spacing: .1rem;
+    font-weight: 500;
+    transition: .5s ease;
+}
+.bttn:hover{
+    box-shadow: none;
+}
